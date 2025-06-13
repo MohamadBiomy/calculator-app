@@ -1,0 +1,65 @@
+
+/* this file will be applied when the user opens the app */
+/* it will be overridden by the style.css file when the user toggles the color scheme */
+
+/* body theme two */
+@media (prefers-color-scheme: light) {
+  :root {
+  /* backgrounds */
+  --main-background: #e6e6e6;
+  --toggle-background: #d1cccc;
+  --keypad-background: #d1cccc;
+  --screen-background: #ededed;
+  
+  /* keys */
+  --key-background: #378187;
+  --key-background-hover: #62b5bd;
+  --key-shadow: #1b6066;
+  
+  --key-background-toggle: #c85402;
+  --key-background-toggle-hover: #ff8b38;
+  --key-shadow-toggle: #873901;
+  
+  --key-background-light: #e5e4e1;
+  --key-background-light-hover: #ffffff;
+  --key-shadow-light: #a69d91;
+  
+  /* text */
+  --main-text: #36362c;
+  --header-text: #36362c;
+  --second-text: #ffffff;
+  --equal-text: #ffffff;
+  }
+}
+
+/* body theme two */
+@media (prefers-color-scheme: dark) {
+  :root {
+  /* backgrounds */
+  --main-background: #17062a;
+  --toggle-background: #1e0936;
+  --keypad-background: #1e0936;
+  --screen-background: #1e0936;
+  
+  /* keys */
+  --key-background: #56077c;
+  --key-background-hover: #8631b0;
+  --key-shadow: #be15f4;
+  
+  --key-background-toggle: #00e0d1;
+  --key-background-toggle-hover: #94fff9;
+  --key-shadow-toggle: #6cf9f1;
+  
+  --key-background-light: #331c4d;
+  --key-background-light-hover: #6b34ac;
+  --key-shadow-light: #881c9e;
+  
+  /* text */
+  --main-text: #ffe53d;
+  --header-text: #ffe53d;
+  --second-text: #ffffff;
+  --equal-text: #1b2428;
+  }
+}
+
+

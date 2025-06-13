@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/colorScheme.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Calculator app</title>
+</head>
+
+<body>
+  
+  <div class="container">
+
+    <!-- header -->
+    <header>
+      <h1>calc</h1>
+      <div class="theme-toggle-container">
+        <span>THEME</span>
+        <div class="theme-toggle">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span class="toggle"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- calculator screen -->
+    <div class="screen">
+      <span class="acc-result"><span></span> <span class="acc-operator">=</span></span>
+      <p class="curr-result">0</p>
+    </div>
+
+    <!-- keys pad -->
+    <div class="keyspad">
+      <div class="num" style="order: 9;">1</div>
+      <div class="num" style="order: 10;">2</div>
+      <div class="num" style="order: 11;">3</div>
+      <div class="num" style="order: 5;">4</div>
+      <div class="num" style="order: 6;">5</div>
+      <div class="num" style="order: 7;">6</div>
+      <div class="num" style="order: 1;">7</div>
+      <div class="num" style="order: 2;">8</div>
+      <div class="num" style="order: 3;">9</div>
+      <div class="num" style="order: 14;">0</div>
+      <div class="dot" style="order: 13;">.</div>
+      <div class="delete" style="order: 4;" data-operation="delete">DEL</div>
+      <div class="reset" style="order: 17;" data-operation="reset">RESET</div>
+      <div class="operator" style="order: 12;" data-operation="-">-</div>
+      <div class="operator" style="order: 8;" data-operation="+">+</div>
+      <div class="equal" style="order: 18;" data-operation="=">=</div>
+      <div class="operator" style="order: 16;" data-operation="x">x</div>
+      <div class="operator" style="order: 15;" data-operation="/">/</div>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
